@@ -1,0 +1,106 @@
+2025-12-11T22:48:21.675773 | ============================================================
+2025-12-11T22:48:21.676417 | GRADER - SANITIZED PHYSICS+MATH
+2025-12-11T22:48:21.676751 | ============================================================
+2025-12-11T22:48:21.676984 | Input: C:\Main\Research\LazyHolidays\data\run_FAILURES_SANITIZED.csv
+2025-12-11T22:48:21.677237 | Output: C:\Main\Research\LazyHolidays\data\graded_SANITIZED_20251211_224821.csv
+2025-12-11T22:48:21.677487 | Model: openai/gpt-5.1
+2025-12-11T22:48:21.677703 | ============================================================
+2025-12-11T22:48:21.681398 | Loaded 120 sanitized rows
+2025-12-11T22:48:21.681870 | [  1/120] 012-M-M | math
+2025-12-11T22:48:37.900590 |     DEBUG: Got 0 chars
+2025-12-11T22:48:37.901182 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:49:06.276067 |     DEBUG: Got 0 chars
+2025-12-11T22:49:06.277274 |     ⚠ Empty response attempt 2, retrying...
+2025-12-11T22:49:26.565963 |     DEBUG: Got 330 chars
+2025-12-11T22:49:26.566349 |     DEBUG: First 100: - Content / Conceptual Mastery: 38/50  
+- Reasoning & Rigor: 20/30  
+- Communication: 17/20  
+- Tota
+2025-12-11T22:49:26.566672 |     ✓ 38/20/17 = 75
+2025-12-11T22:49:29.567276 | [  2/120] 002-M-M | math
+2025-12-11T22:49:49.515298 |     DEBUG: Got 0 chars
+2025-12-11T22:49:49.516518 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:50:13.742677 |     DEBUG: Got 0 chars
+2025-12-11T22:50:13.743410 |     ⚠ Empty response attempt 2, retrying...
+2025-12-11T22:50:31.794327 |     DEBUG: Got 449 chars
+2025-12-11T22:50:31.795356 |     DEBUG: First 100: - Content / Conceptual Mastery: 40/50  
+- Reasoning & Rigor: 18/30  
+- Communication: 16/20  
+- Tota
+2025-12-11T22:50:31.796522 |     ✓ 40/18/16 = 74
+2025-12-11T22:50:34.797876 | [  3/120] 007-M-M | math
+2025-12-11T22:51:06.687413 |     DEBUG: Got 0 chars
+2025-12-11T22:51:06.689273 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:51:36.186351 |     DEBUG: Got 0 chars
+2025-12-11T22:51:36.186988 |     ⚠ Empty response attempt 2, retrying...
+2025-12-11T22:52:07.241751 |     DEBUG: Got 0 chars
+2025-12-11T22:52:07.242379 |     ⚠ Empty response attempt 3, retrying...
+2025-12-11T22:52:41.387265 |     DEBUG: Got 0 chars
+2025-12-11T22:52:41.390428 |     ⚠ Empty response attempt 4, retrying...
+2025-12-11T22:53:02.736099 |     DEBUG: Got 0 chars
+2025-12-11T22:53:02.736860 |     ⚠ Empty response attempt 5, retrying...
+2025-12-11T22:53:35.781933 |     DEBUG: Got 0 chars
+2025-12-11T22:53:35.783918 |     ⚠ Empty response attempt 6, retrying...
+2025-12-11T22:53:37.785962 |     ✗ Failed
+2025-12-11T22:53:40.787297 | [  4/120] 007-M-P | physics
+2025-12-11T22:53:58.756304 |     DEBUG: Got 0 chars
+2025-12-11T22:53:58.759360 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:54:24.658950 |     DEBUG: Got 0 chars
+2025-12-11T22:54:24.660395 |     ⚠ Empty response attempt 2, retrying...
+2025-12-11T22:54:48.870720 |     DEBUG: Got 0 chars
+2025-12-11T22:54:48.872100 |     ⚠ Empty response attempt 3, retrying...
+2025-12-11T22:55:05.216411 |     DEBUG: Got 0 chars
+2025-12-11T22:55:05.218263 |     ⚠ Empty response attempt 4, retrying...
+2025-12-11T22:55:24.899578 |     DEBUG: Got 0 chars
+2025-12-11T22:55:24.900435 |     ⚠ Empty response attempt 5, retrying...
+2025-12-11T22:55:47.187740 |     DEBUG: Got 0 chars
+2025-12-11T22:55:47.189510 |     ⚠ Empty response attempt 6, retrying...
+2025-12-11T22:55:49.192131 |     ✗ Failed
+2025-12-11T22:55:52.194159 | [  5/120] 013-C-M | math
+2025-12-11T22:56:15.128361 |     DEBUG: Got 0 chars
+2025-12-11T22:56:15.128778 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:56:33.219847 |     DEBUG: Got 148 chars
+2025-12-11T22:56:33.222529 |     DEBUG: First 100: - Content / Conceptual Mastery: 38/50  
+- Reasoning & Rigor: 24/30  
+- Communication: 17/20  
+- Tota
+2025-12-11T22:56:33.225733 |     ✓ 38/24/17 = 79
+2025-12-11T22:56:36.229081 | [  6/120] 008-N-P | physics
+2025-12-11T22:57:06.778395 |     DEBUG: Got 0 chars
+2025-12-11T22:57:06.781259 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:57:22.722971 |     DEBUG: Got 128 chars
+2025-12-11T22:57:22.723355 |     DEBUG: First 100: - Content / Conceptual Mastery: 49/50  
+- Reasoning & Rigor: 29/30  
+- Communication: 19/20  
+- Tota
+2025-12-11T22:57:22.723729 |     ✓ 49/29/19 = 97
+2025-12-11T22:57:25.724259 | [  7/120] 020-C-M | math
+2025-12-11T22:57:41.384113 |     DEBUG: Got 512 chars
+2025-12-11T22:57:41.384980 |     DEBUG: First 100: - Content / Conceptual Mastery: 35/50  
+- Reasoning & Rigor: 18/30  
+- Communication: 16/20  
+- Tota
+2025-12-11T22:57:41.385978 |     ✓ 35/18/16 = 69
+2025-12-11T22:57:44.387451 | [  8/120] 004-N-M | math
+2025-12-11T22:58:12.229775 |     DEBUG: Got 0 chars
+2025-12-11T22:58:12.230702 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T22:58:33.897612 |     DEBUG: Got 0 chars
+2025-12-11T22:58:33.898200 |     ⚠ Empty response attempt 2, retrying...
+2025-12-11T22:59:02.071072 |     DEBUG: Got 0 chars
+2025-12-11T22:59:02.071638 |     ⚠ Empty response attempt 3, retrying...
+2025-12-11T22:59:31.446337 |     DEBUG: Got 0 chars
+2025-12-11T22:59:31.446725 |     ⚠ Empty response attempt 4, retrying...
+2025-12-11T23:00:01.311245 |     DEBUG: Got 0 chars
+2025-12-11T23:00:01.312490 |     ⚠ Empty response attempt 5, retrying...
+2025-12-11T23:00:37.105017 |     DEBUG: Got 0 chars
+2025-12-11T23:00:37.105796 |     ⚠ Empty response attempt 6, retrying...
+2025-12-11T23:00:39.106534 |     ✗ Failed
+2025-12-11T23:00:42.109186 | [  9/120] 014-M-P | physics
+2025-12-11T23:01:03.433359 |     DEBUG: Got 0 chars
+2025-12-11T23:01:03.434733 |     ⚠ Empty response attempt 1, retrying...
+2025-12-11T23:01:28.468877 |     DEBUG: Got 0 chars
+2025-12-11T23:01:28.470230 |     ⚠ Empty response attempt 2, retrying...
+2025-12-11T23:01:47.644901 |     DEBUG: Got 0 chars
+2025-12-11T23:01:47.646797 |     ⚠ Empty response attempt 3, retrying...
+2025-12-11T23:02:21.277420 |     DEBUG: Got 0 chars
+2025-12-11T23:02:21.277867 |     ⚠ Empty response attempt 4, retrying...

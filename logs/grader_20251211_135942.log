@@ -1,0 +1,791 @@
+2025-12-11T13:59:42.288992 | ============================================================
+2025-12-11T13:59:42.289419 | HOLIDAY GRADER v3.0 - MODULAR PER-SUBJECT PROMPTS
+2025-12-11T13:59:42.289621 | ============================================================
+2025-12-11T13:59:42.289773 | Grader model: openai/gpt-5.1
+2025-12-11T13:59:42.289908 | Input: C:\Main\Research\LazyHolidays\data\run_20251211_084623.csv
+2025-12-11T13:59:42.290036 | Output: C:\Main\Research\LazyHolidays\data\graded_20251211_135942.csv
+2025-12-11T13:59:42.290159 | Log: C:\Main\Research\LazyHolidays\logs\grader_20251211_135942.log
+2025-12-11T13:59:42.290405 | ============================================================
+2025-12-11T13:59:42.298599 | Loaded 300 rows from input CSV
+2025-12-11T13:59:42.299033 | Found 300 gradeable rows
+2025-12-11T13:59:42.299270 | Shuffled row order for blinding
+2025-12-11T13:59:42.299431 | ============================================================
+2025-12-11T13:59:42.299736 | [  1/300] B001 | task=philosophy | case_id=004-C-H
+2025-12-11T13:59:54.969682 |     ✓ Scores: 42/22/17 = 81
+2025-12-11T13:59:56.470560 | [  2/300] B002 | task=philosophy | case_id=017-C-H
+2025-12-11T14:00:09.547115 |     ✓ Scores: 43/23/16 = 82
+2025-12-11T14:00:11.048399 | [  3/300] B003 | task=physics | case_id=011-M-P
+2025-12-11T14:00:29.567591 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:00:43.811540 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T14:00:45.313104 | [  4/300] B004 | task=biochem | case_id=010-M-B
+2025-12-11T14:00:54.410058 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:00:55.911621 | [  5/300] B005 | task=math | case_id=014-M-M
+2025-12-11T14:01:29.119626 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:01:46.930487 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T14:01:48.432382 | [  6/300] B006 | task=biochem | case_id=007-N-B
+2025-12-11T14:01:56.439768 |     ✓ Scores: 48/29/20 = 97
+2025-12-11T14:01:57.941430 | [  7/300] B007 | task=techsoc | case_id=002-C-T
+2025-12-11T14:02:05.644846 |     ✓ Scores: 18/8/14 = 40
+2025-12-11T14:02:07.147281 | [  8/300] B008 | task=physics | case_id=005-N-P
+2025-12-11T14:02:29.261206 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:02:54.063796 |     ✗ FAILED: - Content / Conceptual Mastery: 50/50  
+- Reasoning &...
+2025-12-11T14:02:55.565318 | [  9/300] B009 | task=math | case_id=013-M-M
+2025-12-11T14:03:12.477483 |     ✓ Scores: 42/23/19 = 84
+2025-12-11T14:03:13.978514 | [ 10/300] B010 | task=philosophy | case_id=007-M-H
+2025-12-11T14:03:30.671882 |     ✓ Scores: 22/8/10 = 40
+2025-12-11T14:03:32.175340 | [ 11/300] B011 | task=techsoc | case_id=009-C-T
+2025-12-11T14:03:37.083665 |     ✓ Scores: 6/4/10 = 20
+2025-12-11T14:03:38.585679 | [ 12/300] B012 | task=techsoc | case_id=006-M-T
+2025-12-11T14:03:43.672283 |     ✓ Scores: 6/5/10 = 21
+2025-12-11T14:03:45.174033 | [ 13/300] B013 | task=techsoc | case_id=014-N-T
+2025-12-11T14:03:49.267495 |     ✓ Scores: 5/4/12 = 21
+2025-12-11T14:03:50.768403 | [ 14/300] B014 | task=techsoc | case_id=020-M-T
+2025-12-11T14:03:57.177952 |     ✓ Scores: 5/7/12 = 24
+2025-12-11T14:03:58.679202 | [ 15/300] B015 | task=philosophy | case_id=007-C-H
+2025-12-11T14:04:06.132550 |     ✓ Scores: 22/12/14 = 48
+2025-12-11T14:04:07.635590 | [ 16/300] B016 | task=techsoc | case_id=019-C-T
+2025-12-11T14:04:14.136122 |     ✓ Scores: 9/7/11 = 27
+2025-12-11T14:04:15.638311 | [ 17/300] B017 | task=biochem | case_id=019-M-B
+2025-12-11T14:04:23.566892 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:04:25.068090 | [ 18/300] B018 | task=physics | case_id=016-M-P
+2025-12-11T14:04:44.882698 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:05:04.882161 |     ✓ Scores: 48/27/18 = 93
+2025-12-11T14:05:06.383092 | [ 19/300] B019 | task=biochem | case_id=013-N-B
+2025-12-11T14:05:16.114404 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T14:05:17.615997 | [ 20/300] B020 | task=physics | case_id=001-N-P
+2025-12-11T14:05:29.133304 |     ✓ Scores: 50/29/20 = 99
+2025-12-11T14:05:30.634197 | [ 21/300] B021 | task=math | case_id=005-M-M
+2025-12-11T14:05:41.822148 |     ✓ Scores: 48/27/19 = 94
+2025-12-11T14:05:43.324773 | [ 22/300] B022 | task=physics | case_id=001-C-P
+2025-12-11T14:05:58.299916 |     ✗ FAILED: - Content / Conceptual Mastery: 48/50  
+- Reasoning & Rigor: 27/30  
+...
+2025-12-11T14:05:59.800623 | [ 23/300] B023 | task=math | case_id=018-C-M
+2025-12-11T14:06:25.547220 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:06:54.522586 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:07:22.894863 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:07:23.896494 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:07:25.400015 | [ 24/300] B024 | task=biochem | case_id=005-M-B
+2025-12-11T14:07:34.917183 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:07:36.418511 | [ 25/300] B025 | task=biochem | case_id=019-C-B
+2025-12-11T14:07:42.672715 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:07:44.174427 | [ 26/300] B026 | task=math | case_id=020-M-M
+2025-12-11T14:08:11.758194 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:08:23.541210 |     ✓ Scores: 42/23/18 = 83
+2025-12-11T14:08:25.042666 | [ 27/300] B027 | task=math | case_id=007-N-M
+2025-12-11T14:08:38.449966 |     ✓ Scores: 46/24/19 = 89
+2025-12-11T14:08:39.951972 | [ 28/300] B028 | task=physics | case_id=009-C-P
+2025-12-11T14:09:06.904951 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:09:30.475575 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:09:51.988490 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:09:52.989556 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:09:54.491335 | [ 29/300] B029 | task=math | case_id=003-C-M
+2025-12-11T14:10:18.143567 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:10:33.338544 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:10:53.682448 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:10:54.683303 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:10:56.184223 | [ 30/300] B030 | task=techsoc | case_id=003-N-T
+2025-12-11T14:11:01.784383 |     ✓ Scores: 6/5/12 = 23
+2025-12-11T14:11:03.286193 | [ 31/300] B031 | task=math | case_id=006-N-M
+2025-12-11T14:11:27.207765 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:11:47.986203 |     ⚠ Could not parse scores on attempt 2, retrying...
+2025-12-11T14:11:47.986667 |     Response preview: - Content / Conceptual Master...
+2025-12-11T14:12:03.080358 |     ✓ Scores: 45/26/18 = 89
+2025-12-11T14:12:04.581893 | [ 32/300] B032 | task=physics | case_id=006-C-P
+2025-12-11T14:12:22.862372 |     ✓ Scores: 50/30/20 = 100
+2025-12-11T14:12:24.363466 | [ 33/300] B033 | task=physics | case_id=013-N-P
+2025-12-11T14:12:41.283414 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:12:58.887058 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:13:10.499636 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:13:11.500691 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:13:13.001851 | [ 34/300] B034 | task=physics | case_id=002-N-P
+2025-12-11T14:13:27.919489 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:13:49.641426 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:14:05.586265 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:14:07.087256 | [ 35/300] B035 | task=biochem | case_id=008-C-B
+2025-12-11T14:14:15.796093 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:14:17.297006 | [ 36/300] B036 | task=techsoc | case_id=005-N-T
+2025-12-11T14:14:22.890858 |     ✓ Scores: 6/5/12 = 23
+2025-12-11T14:14:24.391813 | [ 37/300] B037 | task=biochem | case_id=012-C-B
+2025-12-11T14:14:33.653612 |     ✓ Scores: 47/28/19 = 94
+2025-12-11T14:14:35.154741 | [ 38/300] B038 | task=philosophy | case_id=008-N-H
+2025-12-11T14:14:47.135344 |     ✓ Scores: 43/23/19 = 85
+2025-12-11T14:14:48.636605 | [ 39/300] B039 | task=biochem | case_id=005-N-B
+2025-12-11T14:14:55.134421 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:14:56.635711 | [ 40/300] B040 | task=physics | case_id=015-C-P
+2025-12-11T14:15:25.992000 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:15:43.897231 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:16:02.535663 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:16:03.537251 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:16:05.040945 | [ 41/300] B041 | task=physics | case_id=011-C-P
+2025-12-11T14:16:10.844229 |     ✓ Scores: 6/4/8 = 18
+2025-12-11T14:16:12.345246 | [ 42/300] B042 | task=techsoc | case_id=007-M-T
+2025-12-11T14:16:17.041151 |     ✓ Scores: 6/6/11 = 23
+2025-12-11T14:16:18.543249 | [ 43/300] B043 | task=techsoc | case_id=013-M-T
+2025-12-11T14:16:24.318628 |     ✓ Scores: 12/8/13 = 33
+2025-12-11T14:16:25.820229 | [ 44/300] B044 | task=physics | case_id=018-M-P
+2025-12-11T14:16:38.598678 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:16:40.099519 | [ 45/300] B045 | task=techsoc | case_id=001-M-T
+2025-12-11T14:16:47.750038 |     ✓ Scores: 10/8/12 = 30
+2025-12-11T14:16:49.251167 | [ 46/300] B046 | task=physics | case_id=013-M-P
+2025-12-11T14:17:07.542555 |     ✓ Scores: 50/29/19 = 98
+2025-12-11T14:17:09.043277 | [ 47/300] B047 | task=techsoc | case_id=010-M-T
+2025-12-11T14:17:14.285067 |     ✓ Scores: 5/5/14 = 24
+2025-12-11T14:17:15.785821 | [ 48/300] B048 | task=physics | case_id=012-M-P
+2025-12-11T14:17:36.293276 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:17:47.250594 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:17:48.752059 | [ 49/300] B049 | task=biochem | case_id=019-N-B
+2025-12-11T14:17:57.583116 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:17:59.085093 | [ 50/300] B050 | task=math | case_id=016-M-M
+2025-12-11T14:18:16.513678 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:18:41.215933 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:19:13.678426 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:19:14.679815 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:19:16.181549 | [ 51/300] B051 | task=techsoc | case_id=018-M-T
+2025-12-11T14:19:21.388923 |     ✓ Scores: 4/3/7 = 14
+2025-12-11T14:19:22.890001 | [ 52/300] B052 | task=techsoc | case_id=019-M-T
+2025-12-11T14:19:28.408887 |     ✓ Scores: 6/5/12 = 23
+2025-12-11T14:19:29.909767 | [ 53/300] B053 | task=techsoc | case_id=007-C-T
+2025-12-11T14:19:36.743690 |     ✓ Scores: 15/10/14 = 39
+2025-12-11T14:19:38.245185 | [ 54/300] B054 | task=philosophy | case_id=002-C-H
+2025-12-11T14:19:48.411863 |     ✓ Scores: 44/21/18 = 83
+2025-12-11T14:19:49.914259 | [ 55/300] B055 | task=physics | case_id=001-M-P
+2025-12-11T14:20:05.740554 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:20:15.090056 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T14:20:16.594668 | [ 56/300] B056 | task=philosophy | case_id=019-C-H
+2025-12-11T14:20:28.458089 |     ✓ Scores: 40/20/15 = 75
+2025-12-11T14:20:29.959060 | [ 57/300] B057 | task=philosophy | case_id=015-M-H
+2025-12-11T14:20:37.003658 |     ✓ Scores: 30/12/16 = 58
+2025-12-11T14:20:38.504452 | [ 58/300] B058 | task=physics | case_id=018-C-P
+2025-12-11T14:20:51.750617 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:21:16.640591 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:21:37.509853 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:21:38.511607 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:21:40.013016 | [ 59/300] B059 | task=biochem | case_id=002-C-B
+2025-12-11T14:21:58.793548 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:22:00.294180 | [ 60/300] B060 | task=physics | case_id=020-C-P
+2025-12-11T14:22:18.444881 |     ✓ Scores: 47/27/20 = 94
+2025-12-11T14:22:19.945959 | [ 61/300] B061 | task=philosophy | case_id=003-M-H
+2025-12-11T14:22:26.155746 |     ✓ Scores: 18/10/14 = 42
+2025-12-11T14:22:27.656624 | [ 62/300] B062 | task=biochem | case_id=010-N-B
+2025-12-11T14:22:34.594614 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T14:22:36.096205 | [ 63/300] B063 | task=physics | case_id=020-N-P
+2025-12-11T14:22:52.512972 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:23:07.995936 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:23:34.263087 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:23:35.263741 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:23:36.764435 | [ 64/300] B064 | task=physics | case_id=007-M-P
+2025-12-11T14:23:49.184765 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:24:14.168141 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:24:38.684232 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:24:39.685131 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:24:41.186873 | [ 65/300] B065 | task=philosophy | case_id=012-C-H
+2025-12-11T14:24:57.205765 |     ✓ Scores: 37/21/17 = 75
+2025-12-11T14:24:58.707151 | [ 66/300] B066 | task=philosophy | case_id=016-C-H
+2025-12-11T14:25:08.020322 |     ✓ Scores: 20/5/12 = 37
+2025-12-11T14:25:09.521253 | [ 67/300] B067 | task=philosophy | case_id=020-M-H
+2025-12-11T14:25:15.640682 |     ✓ Scores: 12/6/10 = 28
+2025-12-11T14:25:17.141516 | [ 68/300] B068 | task=biochem | case_id=007-M-B
+2025-12-11T14:25:25.451257 |     ✓ Scores: 48/27/18 = 93
+2025-12-11T14:25:26.953135 | [ 69/300] B069 | task=physics | case_id=014-C-P
+2025-12-11T14:25:47.303280 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:26:07.026472 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:26:26.860933 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:26:27.861734 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:26:29.362461 | [ 70/300] B070 | task=techsoc | case_id=015-C-T
+2025-12-11T14:26:34.643362 |     ✓ Scores: 8/6/12 = 26
+2025-12-11T14:26:36.144735 | [ 71/300] B071 | task=biochem | case_id=015-N-B
+2025-12-11T14:26:49.192011 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T14:26:50.693377 | [ 72/300] B072 | task=physics | case_id=017-M-P
+2025-12-11T14:27:00.093497 |     ✓ Scores: 47/26/17 = 90
+2025-12-11T14:27:01.594083 | [ 73/300] B073 | task=techsoc | case_id=012-N-T
+2025-12-11T14:27:10.489297 |     ✓ Scores: 6/5/12 = 23
+2025-12-11T14:27:11.990304 | [ 74/300] B074 | task=math | case_id=009-M-M
+2025-12-11T14:27:29.552142 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:28:00.618420 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:28:18.745935 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:28:19.746509 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:28:21.247932 | [ 75/300] B075 | task=math | case_id=017-C-M
+2025-12-11T14:28:47.521982 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:29:16.937123 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:29:33.816607 |     ✗ FAILED: - Content / Conceptual Mastery: 46/50  
+- Reasoning & Rigor: 24/30  
+- Communication:...
+2025-12-11T14:29:35.321003 | [ 76/300] B076 | task=techsoc | case_id=010-C-T
+2025-12-11T14:29:42.825041 |     ✓ Scores: 5/9/16 = 30
+2025-12-11T14:29:44.326371 | [ 77/300] B077 | task=philosophy | case_id=013-N-H
+2025-12-11T14:29:55.125151 |     ✓ Scores: 28/10/14 = 52
+2025-12-11T14:29:56.629218 | [ 78/300] B078 | task=techsoc | case_id=005-C-T
+2025-12-11T14:30:01.551957 |     ✓ Scores: 16/12/13 = 41
+2025-12-11T14:30:03.052475 | [ 79/300] B079 | task=philosophy | case_id=006-C-H
+2025-12-11T14:30:11.460446 |     ✓ Scores: 22/8/10 = 40
+2025-12-11T14:30:12.961430 | [ 80/300] B080 | task=techsoc | case_id=017-C-T
+2025-12-11T14:30:22.959791 |     ✓ Scores: 12/9/13 = 34
+2025-12-11T14:30:24.461353 | [ 81/300] B081 | task=math | case_id=011-C-M
+2025-12-11T14:30:45.085309 |     ✓ Scores: 44/24/18 = 86
+2025-12-11T14:30:46.586523 | [ 82/300] B082 | task=math | case_id=001-C-M
+2025-12-11T14:31:03.480632 |     ✗ FAILED: - Content / Conceptual Mastery: 46/50  
+- Reasoning & Rigor: 17/30  
+- Communication: 15...
+2025-12-11T14:31:04.981917 | [ 83/300] B083 | task=philosophy | case_id=014-C-H
+2025-12-11T14:31:19.068234 |     ✓ Scores: 43/22/18 = 83
+2025-12-11T14:31:20.570628 | [ 84/300] B084 | task=biochem | case_id=009-M-B
+2025-12-11T14:31:33.276276 |     ✓ Scores: 47/29/19 = 95
+2025-12-11T14:31:34.777970 | [ 85/300] B085 | task=philosophy | case_id=004-M-H
+2025-12-11T14:31:43.671337 |     ✓ Scores: 34/17/15 = 66
+2025-12-11T14:31:45.172912 | [ 86/300] B086 | task=techsoc | case_id=012-M-T
+2025-12-11T14:31:51.408413 |     ✓ Scores: 6/8/12 = 26
+2025-12-11T14:31:52.911058 | [ 87/300] B087 | task=math | case_id=010-N-M
+2025-12-11T14:32:26.971286 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:33:00.020824 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:33:32.480118 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:33:33.482856 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:33:34.986009 | [ 88/300] B088 | task=philosophy | case_id=013-C-H
+2025-12-11T14:33:46.304033 |     ✓ Scores: 18/8/10 = 36
+2025-12-11T14:33:47.804609 | [ 89/300] B089 | task=techsoc | case_id=012-C-T
+2025-12-11T14:33:54.076442 |     ✓ Scores: 12/8/15 = 35
+2025-12-11T14:33:55.577948 | [ 90/300] B090 | task=biochem | case_id=015-C-B
+2025-12-11T14:34:06.794978 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:34:08.295942 | [ 91/300] B091 | task=philosophy | case_id=005-C-H
+2025-12-11T14:34:25.160497 |     ✓ Scores: 42/22/18 = 82
+2025-12-11T14:34:26.661446 | [ 92/300] B092 | task=physics | case_id=008-C-P
+2025-12-11T14:35:01.810477 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:35:15.315947 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T14:35:16.817952 | [ 93/300] B093 | task=biochem | case_id=016-M-B
+2025-12-11T14:35:26.645654 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:35:28.146306 | [ 94/300] B094 | task=philosophy | case_id=014-M-H
+2025-12-11T14:35:36.387023 |     ✓ Scores: 24/9/13 = 46
+2025-12-11T14:35:37.889372 | [ 95/300] B095 | task=physics | case_id=005-M-P
+2025-12-11T14:36:00.389376 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:36:17.995576 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:36:19.496528 | [ 96/300] B096 | task=techsoc | case_id=013-N-T
+2025-12-11T14:36:24.299131 |     ✓ Scores: 4/5/10 = 19
+2025-12-11T14:36:25.801421 | [ 97/300] B097 | task=biochem | case_id=004-M-B
+2025-12-11T14:36:34.927532 |     ✓ Scores: 48/30/19 = 97
+2025-12-11T14:36:36.428350 | [ 98/300] B098 | task=physics | case_id=016-N-P
+2025-12-11T14:36:51.689087 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:37:10.288554 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:37:26.338148 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:37:27.839058 | [ 99/300] B099 | task=biochem | case_id=003-N-B
+2025-12-11T14:37:36.562685 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:37:38.063975 | [100/300] B100 | task=techsoc | case_id=015-N-T
+2025-12-11T14:37:43.970864 |     ✓ Scores: 3/6/14 = 23
+2025-12-11T14:37:45.474286 | [101/300] B101 | task=philosophy | case_id=013-M-H
+2025-12-11T14:38:05.623350 |     ✓ Scores: 28/14/12 = 54
+2025-12-11T14:38:07.126380 | [102/300] B102 | task=biochem | case_id=020-C-B
+2025-12-11T14:38:16.788302 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:38:18.289118 | [103/300] B103 | task=biochem | case_id=012-M-B
+2025-12-11T14:38:28.461503 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:38:29.963965 | [104/300] B104 | task=philosophy | case_id=018-M-H
+2025-12-11T14:38:42.289965 |     ✓ Scores: 42/22/18 = 82
+2025-12-11T14:38:43.790944 | [105/300] B105 | task=math | case_id=015-C-M
+2025-12-11T14:38:56.543890 |     ✓ Scores: 45/22/18 = 85
+2025-12-11T14:38:58.047138 | [106/300] B106 | task=techsoc | case_id=009-N-T
+2025-12-11T14:39:03.671650 |     ✓ Scores: 6/7/15 = 28
+2025-12-11T14:39:05.174431 | [107/300] B107 | task=biochem | case_id=009-C-B
+2025-12-11T14:39:14.019698 |     ✓ Scores: 47/29/19 = 95
+2025-12-11T14:39:15.523175 | [108/300] B108 | task=math | case_id=010-M-M
+2025-12-11T14:39:40.559633 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:40:08.795702 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:40:25.871679 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:40:26.874008 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:40:28.375566 | [109/300] B109 | task=biochem | case_id=014-C-B
+2025-12-11T14:40:37.469478 |     ✓ Scores: 48/29/18 = 95
+2025-12-11T14:40:38.970755 | [110/300] B110 | task=techsoc | case_id=017-M-T
+2025-12-11T14:40:43.099443 |     ✓ Scores: 5/4/13 = 22
+2025-12-11T14:40:44.601431 | [111/300] B111 | task=physics | case_id=014-N-P
+2025-12-11T14:41:00.473899 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:41:17.321722 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:41:33.257479 |     ✗ FAILED: - Content / Conceptual Mastery: 49/50  
+- Reasoning...
+2025-12-11T14:41:34.760744 | [112/300] B112 | task=physics | case_id=009-N-P
+2025-12-11T14:42:00.058724 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:42:22.464608 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:42:40.498428 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:42:41.499430 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:42:43.001096 | [113/300] B113 | task=techsoc | case_id=010-N-T
+2025-12-11T14:42:47.774954 |     ✓ Scores: 6/7/11 = 24
+2025-12-11T14:42:49.276614 | [114/300] B114 | task=biochem | case_id=005-C-B
+2025-12-11T14:43:00.493331 |     ✓ Scores: 47/29/19 = 95
+2025-12-11T14:43:01.996427 | [115/300] B115 | task=techsoc | case_id=003-M-T
+2025-12-11T14:43:05.727762 |     ✓ Scores: 6/5/14 = 25
+2025-12-11T14:43:07.230837 | [116/300] B116 | task=math | case_id=008-M-M
+2025-12-11T14:43:14.457080 |     ✓ Scores: 12/5/14 = 31
+2025-12-11T14:43:15.958103 | [117/300] B117 | task=techsoc | case_id=011-M-T
+2025-12-11T14:43:21.140272 |     ✓ Scores: 4/5/10 = 19
+2025-12-11T14:43:22.641474 | [118/300] B118 | task=techsoc | case_id=020-N-T
+2025-12-11T14:43:26.990227 |     ✓ Scores: 3/4/12 = 19
+2025-12-11T14:43:28.491734 | [119/300] B119 | task=biochem | case_id=002-M-B
+2025-12-11T14:43:36.526194 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T14:43:38.027131 | [120/300] B120 | task=biochem | case_id=011-N-B
+2025-12-11T14:43:44.568126 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:43:46.070449 | [121/300] B121 | task=math | case_id=015-M-M
+2025-12-11T14:44:07.731343 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:44:35.152472 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:44:59.283122 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:45:00.285937 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:45:01.787130 | [122/300] B122 | task=biochem | case_id=016-N-B
+2025-12-11T14:45:16.929824 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:45:18.430637 | [123/300] B123 | task=math | case_id=001-M-M
+2025-12-11T14:45:34.623311 |     ✓ Scores: 42/16/15 = 73
+2025-12-11T14:45:36.124281 | [124/300] B124 | task=physics | case_id=019-M-P
+2025-12-11T14:46:07.385799 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:46:42.021656 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:47:17.780877 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:47:18.784221 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:47:20.285394 | [125/300] B125 | task=techsoc | case_id=017-N-T
+2025-12-11T14:47:28.239537 |     ✓ Scores: 5/7/14 = 26
+2025-12-11T14:47:29.742824 | [126/300] B126 | task=physics | case_id=004-M-P
+2025-12-11T14:47:55.044528 |     ✓ Scores: 48/27/19 = 94
+2025-12-11T14:47:56.545941 | [127/300] B127 | task=math | case_id=014-C-M
+2025-12-11T14:48:15.735346 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T14:48:17.236237 | [128/300] B128 | task=biochem | case_id=002-N-B
+2025-12-11T14:48:27.881072 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T14:48:29.381804 | [129/300] B129 | task=techsoc | case_id=016-C-T
+2025-12-11T14:48:37.196304 |     ✓ Scores: 22/14/18 = 54
+2025-12-11T14:48:38.697122 | [130/300] B130 | task=techsoc | case_id=002-M-T
+2025-12-11T14:48:45.503120 |     ✓ Scores: 18/8/10 = 36
+2025-12-11T14:48:47.003912 | [131/300] B131 | task=philosophy | case_id=007-N-H
+2025-12-11T14:49:00.291110 |     ✓ Scores: 38/20/18 = 76
+2025-12-11T14:49:01.792660 | [132/300] B132 | task=math | case_id=019-M-M
+2025-12-11T14:49:23.605019 |     ✓ Scores: 42/19/16 = 77
+2025-12-11T14:49:25.105847 | [133/300] B133 | task=math | case_id=001-N-M
+2025-12-11T14:49:51.802170 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:50:18.909928 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:50:51.657215 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:50:52.658412 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:50:54.159505 | [134/300] B134 | task=philosophy | case_id=011-M-H
+2025-12-11T14:51:08.079060 |     ✓ Scores: 18/6/10 = 34
+2025-12-11T14:51:09.580703 | [135/300] B135 | task=biochem | case_id=003-C-B
+2025-12-11T14:51:16.256825 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T14:51:17.758135 | [136/300] B136 | task=biochem | case_id=001-C-B
+2025-12-11T14:51:25.668119 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T14:51:27.171138 | [137/300] B137 | task=math | case_id=011-N-M
+2025-12-11T14:52:14.664657 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:52:57.323793 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:53:31.573208 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T14:53:32.574097 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T14:53:34.078355 | [138/300] B138 | task=techsoc | case_id=018-C-T
+2025-12-11T14:53:39.654912 |     ✓ Scores: 3/4/6 = 13
+2025-12-11T14:53:41.155551 | [139/300] B139 | task=math | case_id=003-N-M
+2025-12-11T14:53:53.832835 |     ✓ Scores: 47/25/18 = 90
+2025-12-11T14:53:55.335362 | [140/300] B140 | task=philosophy | case_id=001-N-H
+2025-12-11T14:54:13.171076 |     ✓ Scores: 24/13/11 = 48
+2025-12-11T14:54:14.672976 | [141/300] B141 | task=philosophy | case_id=016-N-H
+2025-12-11T14:54:29.653904 |     ✓ Scores: 32/12/11 = 55
+2025-12-11T14:54:31.155966 | [142/300] B142 | task=philosophy | case_id=003-C-H
+2025-12-11T14:54:43.944253 |     ✓ Scores: 18/6/10 = 34
+2025-12-11T14:54:45.445789 | [143/300] B143 | task=math | case_id=019-C-M
+2025-12-11T14:55:04.141840 |     ✓ Scores: 35/16/16 = 67
+2025-12-11T14:55:05.642999 | [144/300] B144 | task=techsoc | case_id=008-C-T
+2025-12-11T14:55:14.561383 |     ✓ Scores: 10/6/14 = 30
+2025-12-11T14:55:16.062835 | [145/300] B145 | task=techsoc | case_id=013-C-T
+2025-12-11T14:55:29.773700 |     ✓ Scores: 12/6/14 = 32
+2025-12-11T14:55:31.274732 | [146/300] B146 | task=techsoc | case_id=004-M-T
+2025-12-11T14:55:42.222369 |     ✓ Scores: 5/6/10 = 21
+2025-12-11T14:55:43.723240 | [147/300] B147 | task=physics | case_id=017-C-P
+2025-12-11T14:55:53.326655 |     ✓ Scores: 10/5/9 = 24
+2025-12-11T14:55:54.827429 | [148/300] B148 | task=philosophy | case_id=012-N-H
+2025-12-11T14:56:09.345780 |     ✓ Scores: 42/23/19 = 84
+2025-12-11T14:56:10.848281 | [149/300] B149 | task=physics | case_id=004-N-P
+2025-12-11T14:56:29.135326 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T14:56:30.636929 | [150/300] B150 | task=math | case_id=006-C-M
+2025-12-11T14:56:47.239078 |     ✓ Scores: 25/16/14 = 55
+2025-12-11T14:56:48.740987 | [151/300] B151 | task=physics | case_id=018-N-P
+2025-12-11T14:57:14.683518 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:57:34.481066 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T14:57:35.983773 | [152/300] B152 | task=techsoc | case_id=014-M-T
+2025-12-11T14:57:45.693817 |     ✓ Scores: 6/8/12 = 26
+2025-12-11T14:57:47.194474 | [153/300] B153 | task=math | case_id=017-M-M
+2025-12-11T14:58:01.523755 |     ✓ Scores: 43/22/18 = 83
+2025-12-11T14:58:03.025144 | [154/300] B154 | task=philosophy | case_id=004-N-H
+2025-12-11T14:58:15.074713 |     ✓ Scores: 28/12/10 = 50
+2025-12-11T14:58:16.576342 | [155/300] B155 | task=physics | case_id=015-M-P
+2025-12-11T14:58:37.952205 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T14:59:02.790492 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T14:59:23.404471 |     ✓ Scores: 50/29/19 = 98
+2025-12-11T14:59:24.905662 | [156/300] B156 | task=techsoc | case_id=018-N-T
+2025-12-11T14:59:32.002527 |     ✓ Scores: 8/7/13 = 28
+2025-12-11T14:59:33.503547 | [157/300] B157 | task=philosophy | case_id=006-N-H
+2025-12-11T14:59:52.575831 |     ✓ Scores: 41/19/16 = 76
+2025-12-11T14:59:54.076480 | [158/300] B158 | task=physics | case_id=010-C-P
+2025-12-11T15:00:13.879548 |     ✓ Scores: 49/29/18 = 96
+2025-12-11T15:00:15.383150 | [159/300] B159 | task=philosophy | case_id=010-N-H
+2025-12-11T15:00:46.155395 |     ✓ Scores: 43/22/19 = 84
+2025-12-11T15:00:47.659006 | [160/300] B160 | task=physics | case_id=015-N-P
+2025-12-11T15:00:50.857175 |     ✓ Scores: 0/0/0 = 0
+2025-12-11T15:00:52.361340 | [161/300] B161 | task=math | case_id=015-N-M
+2025-12-11T15:01:27.257588 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:01:57.347043 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T15:01:58.849034 | [162/300] B162 | task=techsoc | case_id=020-C-T
+2025-12-11T15:02:08.695635 |     ✓ Scores: 18/12/16 = 46
+2025-12-11T15:02:10.196785 | [163/300] B163 | task=techsoc | case_id=001-N-T
+2025-12-11T15:02:21.439203 |     ✓ Scores: 8/7/13 = 28
+2025-12-11T15:02:22.940448 | [164/300] B164 | task=biochem | case_id=014-N-B
+2025-12-11T15:02:30.366312 |     ✓ Scores: 50/30/20 = 100
+2025-12-11T15:02:31.870327 | [165/300] B165 | task=techsoc | case_id=011-N-T
+2025-12-11T15:02:41.517293 |     ✓ Scores: 6/7/15 = 28
+2025-12-11T15:02:43.020328 | [166/300] B166 | task=math | case_id=007-C-M
+2025-12-11T15:03:07.974058 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:03:25.780050 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T15:03:27.283289 | [167/300] B167 | task=math | case_id=016-N-M
+2025-12-11T15:04:00.232639 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:04:25.518123 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:04:45.525079 |     ✓ Scores: 46/27/19 = 92
+2025-12-11T15:04:47.027014 | [168/300] B168 | task=biochem | case_id=008-N-B
+2025-12-11T15:05:00.043098 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T15:05:01.545558 | [169/300] B169 | task=techsoc | case_id=002-N-T
+2025-12-11T15:05:09.605323 |     ✓ Scores: 5/6/8 = 19
+2025-12-11T15:05:11.108906 | [170/300] B170 | task=math | case_id=009-N-M
+2025-12-11T15:05:49.515165 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:06:22.467397 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:07:00.423032 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:07:01.424272 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:07:02.925045 | [171/300] B171 | task=physics | case_id=003-C-P
+2025-12-11T15:07:23.183428 |     ✓ Scores: 47/26/19 = 92
+2025-12-11T15:07:24.684597 | [172/300] B172 | task=math | case_id=004-N-M
+2025-12-11T15:08:00.618347 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:08:34.958887 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:09:01.810692 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:09:02.811694 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:09:04.313340 | [173/300] B173 | task=techsoc | case_id=019-N-T
+2025-12-11T15:09:11.823210 |     ✓ Scores: 4/3/12 = 19
+2025-12-11T15:09:13.324141 | [174/300] B174 | task=biochem | case_id=009-N-B
+2025-12-11T15:09:40.866431 |     ✓ Scores: 47/28/19 = 94
+2025-12-11T15:09:42.367756 | [175/300] B175 | task=physics | case_id=002-M-P
+2025-12-11T15:10:02.740038 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T15:10:04.241046 | [176/300] B176 | task=philosophy | case_id=017-M-H
+2025-12-11T15:10:22.896872 |     ✓ Scores: 35/16/17 = 68
+2025-12-11T15:10:24.401382 | [177/300] B177 | task=physics | case_id=006-N-P
+2025-12-11T15:10:54.826255 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:11:17.677496 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:11:43.442881 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:11:44.446156 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:11:45.947649 | [178/300] B178 | task=biochem | case_id=017-M-B
+2025-12-11T15:11:56.182236 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T15:11:57.687297 | [179/300] B179 | task=math | case_id=011-M-M
+2025-12-11T15:12:19.390520 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:12:40.313931 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T15:12:41.817950 | [180/300] B180 | task=biochem | case_id=020-N-B
+2025-12-11T15:12:54.101652 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:12:55.602629 | [181/300] B181 | task=philosophy | case_id=019-M-H
+2025-12-11T15:13:28.112324 |     ✓ Scores: 30/14/11 = 55
+2025-12-11T15:13:29.614391 | [182/300] B182 | task=biochem | case_id=014-M-B
+2025-12-11T15:13:41.879974 |     ✓ Scores: 48/28/19 = 95
+2025-12-11T15:13:43.382846 | [183/300] B183 | task=math | case_id=020-C-M
+2025-12-11T15:14:10.437739 |     ✓ Scores: 44/25/19 = 88
+2025-12-11T15:14:11.938465 | [184/300] B184 | task=physics | case_id=004-C-P
+2025-12-11T15:14:33.409801 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:15:08.477992 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:15:30.697199 |     ✗ FAILED: - Content / Conceptual Mastery: 50/50  
+- Reasoning & Rigor: 27/30  
+- Communication: 19/20  
+- Tota...
+2025-12-11T15:15:32.201667 | [185/300] B185 | task=biochem | case_id=010-C-B
+2025-12-11T15:15:48.427939 |     ✓ Scores: 47/29/19 = 95
+2025-12-11T15:15:49.930106 | [186/300] B186 | task=philosophy | case_id=019-N-H
+2025-12-11T15:16:05.101664 |     ✓ Scores: 28/14/15 = 57
+2025-12-11T15:16:06.603023 | [187/300] B187 | task=math | case_id=012-C-M
+2025-12-11T15:16:30.069137 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:17:30.281476 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:17:52.137067 |     ✓ Scores: 49/27/19 = 95
+2025-12-11T15:17:53.638508 | [188/300] B188 | task=techsoc | case_id=015-M-T
+2025-12-11T15:17:58.170716 |     ✓ Scores: 0/0/0 = 0
+2025-12-11T15:17:59.672116 | [189/300] B189 | task=math | case_id=004-C-M
+2025-12-11T15:18:24.375383 |     ✓ Scores: 42/22/17 = 81
+2025-12-11T15:18:25.877259 | [190/300] B190 | task=philosophy | case_id=011-N-H
+2025-12-11T15:18:40.588879 |     ✓ Scores: 40/22/17 = 79
+2025-12-11T15:18:42.091015 | [191/300] B191 | task=techsoc | case_id=008-N-T
+2025-12-11T15:18:50.253258 |     ✓ Scores: 6/7/14 = 27
+2025-12-11T15:18:51.754988 | [192/300] B192 | task=math | case_id=004-M-M
+2025-12-11T15:19:00.903864 |     ✓ Scores: 12/5/8 = 25
+2025-12-11T15:19:02.405783 | [193/300] B193 | task=math | case_id=002-N-M
+2025-12-11T15:19:29.702717 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:19:49.329535 |     ✓ Scores: 42/18/17 = 77
+2025-12-11T15:19:50.832640 | [194/300] B194 | task=philosophy | case_id=010-C-H
+2025-12-11T15:20:00.447510 |     ✓ Scores: 25/12/14 = 51
+2025-12-11T15:20:01.948952 | [195/300] B195 | task=philosophy | case_id=014-N-H
+2025-12-11T15:20:20.255838 |     ✓ Scores: 35/17/17 = 69
+2025-12-11T15:20:21.760370 | [196/300] B196 | task=biochem | case_id=004-C-B
+2025-12-11T15:20:41.256002 |     ✓ Scores: 45/24/18 = 87
+2025-12-11T15:20:42.758226 | [197/300] B197 | task=philosophy | case_id=011-C-H
+2025-12-11T15:20:58.575211 |     ✓ Scores: 43/24/18 = 85
+2025-12-11T15:21:00.077896 | [198/300] B198 | task=biochem | case_id=016-C-B
+2025-12-11T15:21:10.541806 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:21:12.043783 | [199/300] B199 | task=physics | case_id=012-N-P
+2025-12-11T15:21:30.413827 |     ✓ Scores: 48/27/19 = 94
+2025-12-11T15:21:31.918508 | [200/300] B200 | task=biochem | case_id=018-C-B
+2025-12-11T15:21:43.831928 |     ✓ Scores: 49/30/19 = 98
+2025-12-11T15:21:45.333246 | [201/300] B201 | task=biochem | case_id=007-C-B
+2025-12-11T15:22:03.362085 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T15:22:04.866780 | [202/300] B202 | task=math | case_id=005-C-M
+2025-12-11T15:22:28.172333 |     ✓ Scores: 42/23/16 = 81
+2025-12-11T15:22:29.676746 | [203/300] B203 | task=math | case_id=008-N-M
+2025-12-11T15:23:01.304133 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:23:22.432834 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T15:23:23.935609 | [204/300] B204 | task=philosophy | case_id=012-M-H
+2025-12-11T15:23:46.518937 |     ✓ Scores: 30/12/13 = 55
+2025-12-11T15:23:48.020164 | [205/300] B205 | task=techsoc | case_id=004-N-T
+2025-12-11T15:23:56.017357 |     ✓ Scores: 5/4/8 = 17
+2025-12-11T15:23:57.518305 | [206/300] B206 | task=biochem | case_id=006-M-B
+2025-12-11T15:24:14.455700 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T15:24:15.956968 | [207/300] B207 | task=biochem | case_id=013-C-B
+2025-12-11T15:24:29.452135 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T15:24:30.953561 | [208/300] B208 | task=biochem | case_id=008-M-B
+2025-12-11T15:24:38.916221 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T15:24:40.417843 | [209/300] B209 | task=physics | case_id=016-C-P
+2025-12-11T15:24:56.653149 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:24:58.155188 | [210/300] B210 | task=philosophy | case_id=003-N-H
+2025-12-11T15:25:14.179189 |     ✓ Scores: 42/20/16 = 78
+2025-12-11T15:25:15.680732 | [211/300] B211 | task=physics | case_id=019-C-P
+2025-12-11T15:25:42.702078 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:26:06.103345 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:26:31.914258 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:26:32.914895 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:26:34.415818 | [212/300] B212 | task=physics | case_id=003-M-P
+2025-12-11T15:27:32.713025 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:27:57.700986 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:28:15.714765 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:28:16.717627 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:28:18.220871 | [213/300] B213 | task=math | case_id=012-M-M
+2025-12-11T15:28:45.049368 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:29:18.291920 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:29:54.533137 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:29:55.534888 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:29:57.038175 | [214/300] B214 | task=philosophy | case_id=015-N-H
+2025-12-11T15:30:14.944499 |     ✓ Scores: 42/21/17 = 80
+2025-12-11T15:30:16.446186 | [215/300] B215 | task=math | case_id=008-C-M
+2025-12-11T15:30:51.814156 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:31:19.264116 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:31:50.465110 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:31:51.465989 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:31:52.967634 | [216/300] B216 | task=techsoc | case_id=006-N-T
+2025-12-11T15:32:03.321052 |     ✓ Scores: 5/6/6 = 17
+2025-12-11T15:32:04.821930 | [217/300] B217 | task=biochem | case_id=015-M-B
+2025-12-11T15:32:11.154782 |     ✓ Scores: 3/4/10 = 17
+2025-12-11T15:32:12.655786 | [218/300] B218 | task=physics | case_id=005-C-P
+2025-12-11T15:32:30.554739 |     ✓ Scores: 49/25/18 = 92
+2025-12-11T15:32:32.055804 | [219/300] B219 | task=math | case_id=002-C-M
+2025-12-11T15:32:52.677229 |     ✓ Scores: 42/22/18 = 82
+2025-12-11T15:32:54.178775 | [220/300] B220 | task=techsoc | case_id=003-C-T
+2025-12-11T15:33:01.304011 |     ✓ Scores: 4/6/14 = 24
+2025-12-11T15:33:02.805731 | [221/300] B221 | task=philosophy | case_id=015-C-H
+2025-12-11T15:33:17.587458 |     ✓ Scores: 28/12/14 = 54
+2025-12-11T15:33:19.088647 | [222/300] B222 | task=biochem | case_id=018-N-B
+2025-12-11T15:33:28.017539 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:33:29.518838 | [223/300] B223 | task=philosophy | case_id=009-M-H
+2025-12-11T15:33:48.126063 |     ✓ Scores: 20/8/8 = 36
+2025-12-11T15:33:49.627256 | [224/300] B224 | task=biochem | case_id=017-N-B
+2025-12-11T15:33:59.168615 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T15:34:00.669788 | [225/300] B225 | task=philosophy | case_id=018-C-H
+2025-12-11T15:34:20.347965 |     ✓ Scores: 32/10/11 = 53
+2025-12-11T15:34:21.848909 | [226/300] B226 | task=physics | case_id=007-N-P
+2025-12-11T15:34:52.269131 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:35:30.334353 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:36:08.031974 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:36:09.033412 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:36:10.536134 | [227/300] B227 | task=biochem | case_id=006-N-B
+2025-12-11T15:36:21.685247 |     ✓ Scores: 48/29/20 = 97
+2025-12-11T15:36:23.186327 | [228/300] B228 | task=philosophy | case_id=006-M-H
+2025-12-11T15:36:34.413409 |     ✓ Scores: 24/10/12 = 46
+2025-12-11T15:36:35.914527 | [229/300] B229 | task=math | case_id=005-N-M
+2025-12-11T15:37:07.873216 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:37:30.184517 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T15:37:31.685343 | [230/300] B230 | task=techsoc | case_id=016-N-T
+2025-12-11T15:37:38.492254 |     ✓ Scores: 4/3/12 = 19
+2025-12-11T15:37:39.993388 | [231/300] B231 | task=philosophy | case_id=002-M-H
+2025-12-11T15:38:01.195948 |     ✓ Scores: 22/10/9 = 41
+2025-12-11T15:38:02.699302 | [232/300] B232 | task=biochem | case_id=004-N-B
+2025-12-11T15:38:17.764016 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T15:38:19.265053 | [233/300] B233 | task=philosophy | case_id=005-M-H
+2025-12-11T15:38:38.180514 |     ✓ Scores: 42/21/18 = 81
+2025-12-11T15:38:39.683466 | [234/300] B234 | task=physics | case_id=010-N-P
+2025-12-11T15:38:59.090311 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:39:27.725936 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:39:49.952331 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:39:50.954969 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:39:52.458515 | [235/300] B235 | task=math | case_id=016-C-M
+2025-12-11T15:40:12.414042 |     ✓ Scores: 42/23/18 = 83
+2025-12-11T15:40:13.914762 | [236/300] B236 | task=techsoc | case_id=011-C-T
+2025-12-11T15:40:23.847174 |     ✓ Scores: 22/12/11 = 45
+2025-12-11T15:40:25.348676 | [237/300] B237 | task=physics | case_id=006-M-P
+2025-12-11T15:40:45.454386 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:40:46.958122 | [238/300] B238 | task=math | case_id=003-M-M
+2025-12-11T15:41:06.380405 |     ✓ Scores: 48/26/19 = 93
+2025-12-11T15:41:07.881625 | [239/300] B239 | task=biochem | case_id=012-N-B
+2025-12-11T15:41:15.646959 |     ✓ Scores: 50/30/20 = 100
+2025-12-11T15:41:17.147801 | [240/300] B240 | task=techsoc | case_id=008-M-T
+2025-12-11T15:41:33.594572 |     ✓ Scores: 6/7/6 = 19
+2025-12-11T15:41:35.095508 | [241/300] B241 | task=physics | case_id=020-M-P
+2025-12-11T15:41:51.430994 |     ✓ Scores: 49/27/19 = 95
+2025-12-11T15:41:52.933235 | [242/300] B242 | task=philosophy | case_id=002-N-H
+2025-12-11T15:42:04.492624 |     ✓ Scores: 18/10/8 = 36
+2025-12-11T15:42:05.994103 | [243/300] B243 | task=math | case_id=007-M-M
+2025-12-11T15:42:33.480625 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:43:06.927683 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:43:44.729138 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:43:45.730160 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:43:47.231079 | [244/300] B244 | task=biochem | case_id=001-M-B
+2025-12-11T15:44:18.903228 |     ✓ Scores: 22/14/11 = 47
+2025-12-11T15:44:20.403919 | [245/300] B245 | task=physics | case_id=014-M-P
+2025-12-11T15:44:38.578423 |     ✓ Scores: 50/30/19 = 99
+2025-12-11T15:44:40.079589 | [246/300] B246 | task=biochem | case_id=011-M-B
+2025-12-11T15:44:49.691650 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:44:51.193671 | [247/300] B247 | task=physics | case_id=019-N-P
+2025-12-11T15:45:17.246759 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:45:42.461530 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:46:09.752563 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:46:10.753359 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:46:12.254224 | [248/300] B248 | task=math | case_id=002-M-M
+2025-12-11T15:46:38.641972 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:47:10.379278 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:47:38.758084 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:47:39.758888 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:47:41.259621 | [249/300] B249 | task=biochem | case_id=001-N-B
+2025-12-11T15:47:50.848761 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:47:52.349725 | [250/300] B250 | task=physics | case_id=017-N-P
+2025-12-11T15:48:17.598573 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:48:19.099829 | [251/300] B251 | task=biochem | case_id=003-M-B
+2025-12-11T15:48:30.491179 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:48:31.992550 | [252/300] B252 | task=philosophy | case_id=018-N-H
+2025-12-11T15:48:53.449355 |     ✓ Scores: 37/20/17 = 74
+2025-12-11T15:48:54.950749 | [253/300] B253 | task=biochem | case_id=020-M-B
+2025-12-11T15:49:33.238140 |     ✓ Scores: 49/29/20 = 98
+2025-12-11T15:49:34.740759 | [254/300] B254 | task=philosophy | case_id=008-C-H
+2025-12-11T15:49:49.115221 |     ✓ Scores: 41/23/18 = 82
+2025-12-11T15:49:50.616663 | [255/300] B255 | task=math | case_id=009-C-M
+2025-12-11T15:50:22.673043 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:50:58.996635 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:51:33.173462 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:51:34.174750 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:51:35.677444 | [256/300] B256 | task=philosophy | case_id=009-C-H
+2025-12-11T15:51:53.125624 |     ✓ Scores: 38/12/15 = 65
+2025-12-11T15:51:54.627029 | [257/300] B257 | task=physics | case_id=003-N-P
+2025-12-11T15:52:20.359389 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:52:45.753593 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:53:12.688480 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:53:13.689255 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:53:15.190444 | [258/300] B258 | task=techsoc | case_id=007-N-T
+2025-12-11T15:53:24.146900 |     ✓ Scores: 12/8/14 = 34
+2025-12-11T15:53:25.647665 | [259/300] B259 | task=physics | case_id=013-C-P
+2025-12-11T15:53:35.537563 |     ✓ Scores: 7/6/12 = 25
+2025-12-11T15:53:37.038488 | [260/300] B260 | task=math | case_id=010-C-M
+2025-12-11T15:54:04.886695 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:54:36.956026 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:55:06.714579 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:55:07.718100 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:55:09.220648 | [261/300] B261 | task=physics | case_id=002-C-P
+2025-12-11T15:55:28.441056 |     ✓ Scores: 50/29/19 = 98
+2025-12-11T15:55:29.942103 | [262/300] B262 | task=physics | case_id=008-M-P
+2025-12-11T15:55:55.598994 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:56:17.807065 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:56:54.200821 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T15:56:55.201967 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T15:56:56.703169 | [263/300] B263 | task=biochem | case_id=011-C-B
+2025-12-11T15:57:09.395161 |     ✓ Scores: 47/29/19 = 95
+2025-12-11T15:57:10.896007 | [264/300] B264 | task=philosophy | case_id=008-M-H
+2025-12-11T15:57:22.324941 |     ✓ Scores: 22/8/10 = 40
+2025-12-11T15:57:23.828940 | [265/300] B265 | task=math | case_id=020-N-M
+2025-12-11T15:57:47.462504 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T15:58:10.857934 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T15:58:31.482101 |     ✗ FAILED: - Content / Conceptual Mastery: 43/50  
+- Reasoning & Rigor: 23/30  
+- Communication: 18/20  
+- Tota...
+2025-12-11T15:58:32.986359 | [266/300] B266 | task=math | case_id=012-N-M
+2025-12-11T15:58:55.035460 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T15:58:56.536523 | [267/300] B267 | task=biochem | case_id=017-C-B
+2025-12-11T15:59:10.396492 |     ✓ Scores: 49/29/19 = 97
+2025-12-11T15:59:11.897047 | [268/300] B268 | task=techsoc | case_id=005-M-T
+2025-12-11T15:59:21.377270 |     ✓ Scores: 4/6/12 = 22
+2025-12-11T15:59:22.878745 | [269/300] B269 | task=philosophy | case_id=010-M-H
+2025-12-11T15:59:37.895716 |     ✓ Scores: 22/7/9 = 38
+2025-12-11T15:59:39.396225 | [270/300] B270 | task=philosophy | case_id=001-C-H
+2025-12-11T15:59:54.184608 |     ✓ Scores: 34/15/16 = 65
+2025-12-11T15:59:55.685524 | [271/300] B271 | task=math | case_id=017-N-M
+2025-12-11T16:00:31.369409 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:01:05.161941 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:01:30.910535 |     ✓ Scores: 48/26/19 = 93
+2025-12-11T16:01:32.411789 | [272/300] B272 | task=math | case_id=019-N-M
+2025-12-11T16:02:03.880728 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:02:40.043631 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:03:14.673364 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T16:03:15.674287 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T16:03:17.177232 | [273/300] B273 | task=physics | case_id=009-M-P
+2025-12-11T16:03:28.813348 |     ✓ Scores: 3/2/5 = 10
+2025-12-11T16:03:30.315225 | [274/300] B274 | task=physics | case_id=011-N-P
+2025-12-11T16:03:52.317681 |     ✗ FAILED: - Content / Conceptual Mastery: 50/50  
+- Reasoning & Rigor: 30/30  
+- Communication: 20...
+2025-12-11T16:03:53.818674 | [275/300] B275 | task=philosophy | case_id=020-C-H
+2025-12-11T16:04:21.904575 |     ✓ Scores: 42/23/19 = 84
+2025-12-11T16:04:23.407931 | [276/300] B276 | task=math | case_id=018-N-M
+2025-12-11T16:04:55.867049 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:05:34.175979 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:06:04.752867 |     ✓ Scores: 48/27/19 = 94
+2025-12-11T16:06:06.254189 | [277/300] B277 | task=math | case_id=013-C-M
+2025-12-11T16:06:53.683132 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:07:34.070889 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:07:56.880487 |     ✓ Scores: 49/28/19 = 96
+2025-12-11T16:07:58.381725 | [278/300] B278 | task=philosophy | case_id=005-N-H
+2025-12-11T16:08:11.392742 |     ✓ Scores: 28/12/10 = 50
+2025-12-11T16:08:12.893849 | [279/300] B279 | task=math | case_id=018-M-M
+2025-12-11T16:08:42.328527 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:09:01.230009 |     ✓ Scores: 49/27/18 = 94
+2025-12-11T16:09:02.735353 | [280/300] B280 | task=physics | case_id=007-C-P
+2025-12-11T16:09:09.005718 |     ✓ Scores: 8/5/10 = 23
+2025-12-11T16:09:10.507231 | [281/300] B281 | task=philosophy | case_id=017-N-H
+2025-12-11T16:09:23.539069 |     ✓ Scores: 42/22/19 = 83
+2025-12-11T16:09:25.041295 | [282/300] B282 | task=philosophy | case_id=001-M-H
+2025-12-11T16:09:32.899529 |     ✓ Scores: 22/9/13 = 44
+2025-12-11T16:09:34.402978 | [283/300] B283 | task=techsoc | case_id=001-C-T
+2025-12-11T16:10:01.834383 |     ✓ Scores: 6/5/15 = 26
+2025-12-11T16:10:03.335533 | [284/300] B284 | task=philosophy | case_id=020-N-H
+2025-12-11T16:10:22.998899 |     ✓ Scores: 41/21/17 = 79
+2025-12-11T16:10:24.500567 | [285/300] B285 | task=philosophy | case_id=009-N-H
+2025-12-11T16:10:33.570487 |     ✓ Scores: 34/17/14 = 65
+2025-12-11T16:10:35.072608 | [286/300] B286 | task=physics | case_id=008-N-P
+2025-12-11T16:10:48.705164 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:11:04.046764 |     ✓ Scores: 50/30/20 = 100
+2025-12-11T16:11:05.550520 | [287/300] B287 | task=techsoc | case_id=009-M-T
+2025-12-11T16:11:10.972066 |     ✓ Scores: 4/5/10 = 19
+2025-12-11T16:11:12.473192 | [288/300] B288 | task=biochem | case_id=013-M-B
+2025-12-11T16:11:20.686063 |     ✓ Scores: 48/29/19 = 96
+2025-12-11T16:11:22.188028 | [289/300] B289 | task=physics | case_id=012-C-P
+2025-12-11T16:11:54.016238 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:12:21.286971 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:12:35.980325 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T16:12:36.982538 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T16:12:38.486310 | [290/300] B290 | task=physics | case_id=010-M-P
+2025-12-11T16:12:52.623785 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:13:03.775392 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:13:20.960567 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T16:13:21.961325 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T16:13:23.464697 | [291/300] B291 | task=math | case_id=014-N-M
+2025-12-11T16:13:37.870761 |     ✓ Scores: 48/27/19 = 94
+2025-12-11T16:13:39.372138 | [292/300] B292 | task=techsoc | case_id=006-C-T
+2025-12-11T16:13:45.593944 |     ✓ Scores: 8/6/14 = 28
+2025-12-11T16:13:47.095405 | [293/300] B293 | task=math | case_id=013-N-M
+2025-12-11T16:14:20.219725 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:14:40.317922 |     ✓ Scores: 44/24/18 = 86
+2025-12-11T16:14:41.822677 | [294/300] B294 | task=techsoc | case_id=016-M-T
+2025-12-11T16:14:46.787842 |     ✓ Scores: 6/7/14 = 27
+2025-12-11T16:14:48.290079 | [295/300] B295 | task=techsoc | case_id=004-C-T
+2025-12-11T16:14:52.459417 |     ✓ Scores: 5/4/10 = 19
+2025-12-11T16:14:53.960785 | [296/300] B296 | task=biochem | case_id=018-M-B
+2025-12-11T16:15:03.778757 |     ✓ Scores: 50/29/20 = 99
+2025-12-11T16:15:05.280087 | [297/300] B297 | task=techsoc | case_id=014-C-T
+2025-12-11T16:15:10.424075 |     ✓ Scores: 4/6/12 = 22
+2025-12-11T16:15:11.926775 | [298/300] B298 | task=biochem | case_id=006-C-B
+2025-12-11T16:15:16.980800 |     ✓ Scores: 49/29/18 = 96
+2025-12-11T16:15:18.484766 | [299/300] B299 | task=philosophy | case_id=016-M-H
+2025-12-11T16:15:24.558843 |     ✓ Scores: 20/6/8 = 34
+2025-12-11T16:15:26.060497 | [300/300] B300 | task=math | case_id=006-M-M
+2025-12-11T16:15:47.077078 |     ⚠ Empty/short response on attempt 1, retrying...
+2025-12-11T16:16:05.548628 |     ⚠ Empty/short response on attempt 2, retrying...
+2025-12-11T16:16:22.087861 |     ⚠ Empty/short response on attempt 3, retrying...
+2025-12-11T16:16:23.089758 |     ✗ FAILED: ERROR: All retry attempts returned empty/unparseable responses...
+2025-12-11T16:16:24.593535 | ============================================================
+2025-12-11T16:16:24.597361 | COMPLETE! Wrote 300 graded results to C:\Main\Research\LazyHolidays\data\graded_20251211_135942.csv
+2025-12-11T16:16:24.600129 | ============================================================
