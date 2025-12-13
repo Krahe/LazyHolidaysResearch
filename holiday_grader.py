@@ -36,7 +36,7 @@ OUTPUT_CSV = os.path.join(
 
 # --- API Key / Client ---
 # Paste your actual OpenRouter key here on your machine.
-OPENROUTER_API_KEY = "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"
+# OPENROUTER_API_KEY = Your key here ^_^
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
@@ -437,3 +437,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
