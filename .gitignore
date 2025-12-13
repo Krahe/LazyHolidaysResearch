@@ -1,0 +1,17 @@
+# API keys and secrets
+.env
+*.key
+secrets.py
+
+# Python stuff
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE stuff (optional)
+.vscode/
+.idea/
