@@ -23,8 +23,8 @@ N_PER_CELL = 20
 
 # Which subjects to run (comment out to skip)
 ENABLED_SUBJECTS = [
-    #"cs",              tested already
-    #"econ",            tested already
+    "cs",              
+    "econ",            
     "physics",
     "biochem",
     "math",
