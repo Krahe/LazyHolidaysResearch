@@ -2,7 +2,7 @@
 # ROBUSTO EDITION v3.0 - MODULAR PER-SUBJECT PROMPTS
 # ~8× more token efficient than mega-prompt approach!
 #
-# 7 subjects: CS, Econ, Lit, Physics, Biochem, Math, Philosophy, Tech & Society
+# 7 subjects: CS, Econ, Lit, Physics, Biochem, Math, Philosophy, Tech & Society [English lit unused]
 
 import os
 import csv
