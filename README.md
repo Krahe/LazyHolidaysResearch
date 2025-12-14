@@ -7,6 +7,19 @@ Do modern llms 'take it easy around the holidays'?
 ACTUAL RESULT SO FAR:
 'Santa Claude is going to teach you a lesson!'
 
+Files:
+CODE:
+ * The STUDENT code: holiday_test_v3
+ * The GRADER code: grader_robusto_v3 
+DATA:
+ * run_20251209_231758.csv - responses to original run (econ + CS)
+ * run_20251211_084623.csv - responses to 5 new subjects (philosophy, sociology, biochemistry, math & physics)
+ * run_20251209_231758_graded_20251210_102030.csv - subjective (GPT 5.1 w/ 0 temp and strict grader script) grades, econ + CS
+ * 
+
+the older, original study programs (holiday_grader, holiday_test_high) are included for the sake of documentation but have been strictly superceded by the newer files.
+
+
 ## 0. Factors and sample size
 STARTING MODEL: Claude Sonnet 4.5
 **Per model:**
