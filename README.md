@@ -12,13 +12,9 @@ CODE:
  * The STUDENT code: holiday_test_v3
  * The GRADER code: grader_robusto_v3 
 DATA:
- * run_20251209_231758.csv - responses to original run (econ + CS)
- * run_20251211_084623.csv - responses to 5 new subjects (philosophy, sociology, biochemistry, math & physics)
- * run_20251209_231758_graded_20251210_102030.csv - subjective (GPT 5.1 w/ 0 temp and strict grader script) grades, econ + CS
- * 
+ * merged_graded_minimal_with_batch
 
-the older, original study programs (holiday_grader, holiday_test_high) are included for the sake of documentation but have been strictly superceded by the newer files.
-
+the older, original study program (holiday_test_high) is included because the first 2 subjects tested (Econ, CS) used a slightly different grader prompt. 
 
 ## 0. Factors and sample size
 STARTING MODEL: Claude Sonnet 4.5
@@ -43,8 +39,6 @@ STARTING MODEL: Claude Sonnet 4.5
 * **Replicates:** 20 per prime × task
 
 → **3 × 7 × 20 = 420 responses per model**
-
-This is our serious N.
 
 ---
 
@@ -701,9 +695,8 @@ Please grade this answer according to your rubric.
 """
 
 
-TBD: DEVELOP RUBRIC + EXPAND GRADER TO NEW QUESTIONS(?)
+TBD: DEVELOP RUBRIC + EXPAND GRADER TO NEW QUESTIONS(?) -> re-introduce English Lit!
 RUN ON MORE MODEL CLASSES (Grok?)
-WRITE UP FINDINGS MORE FORMALLY (Caw!)
 NEW MEMETICS / ARK INTEGRATIONS (Caw!!)
 
 
